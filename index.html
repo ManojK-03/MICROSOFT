@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Learn Forge</title>
+<meta name="description" content="A student-led technology community for Microsoft Learn, DSA, internships, open source and hackathons. Only 40 seats in the first batch.">
+<meta name="theme-color" content="#050914">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Learn Forge">
+<meta property="og:description" content="Build skills. Earn certifications. Create your future. Only 40 student slots available.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23050914'/%3E%3Cpath d='M13 10l-5 6 5 6M19 10l5 6-5 6' fill='none' stroke='%234FE3F7' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Learn Forge, back to top">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#27C9EA"/><stop offset=".55" stop-color="#3B8EFF"/><stop offset="1" stop-color="#8F6BFF"/></linearGradient></defs><rect x="1" y="1" width="30" height="30" rx="9" stroke="url(#lg)" stroke-width="2"/><path d="M13 10l-5 6 5 6M19 10l5 6-5 6" stroke="url(#lg)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Learn Forge</span>
+    </a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Primary">
+      <a href="#program">Microsoft Learn</a>
+      <a href="#offers">What you get</a>
+      <a href="#why">Why join</a>
+      <a href="#roadmap">Roadmap</a>
+      <a class="btn btn-primary btn-sm" href="#register">Register</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="badge"><i aria-hidden="true"></i>Only 40 student slots available</p>
+      <h1 id="hero-title">Build skills. Earn certifications. Create your future.</h1>
+      <p class="lead">Join an exclusive student technology community designed to help you grow beyond academics through Microsoft Learn, DSA, internships, open-source development, and hackathons.</p>
+      <ul class="chips" aria-label="Program highlights">
+        <li>Microsoft Learn Learning Journey</li>
+        <li>Internship Preparation</li>
+        <li>DSA &amp; Problem Solving</li>
+        <li>GSoC Preparation</li>
+        <li>Hackathons &amp; Technical Events</li>
+      </ul>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#register">Join the community</a>
+        <a class="btn btn-ghost" href="#program">Explore the program</a>
+      </div>
+    </div>
+
+    <aside class="glass seat-card" aria-labelledby="seat-title">
+      <div class="seat-head">
+        <h2 id="seat-title">First batch seats</h2>
+        <span class="status" data-bind="status" data-status>Open</span>
+      </div>
+      <div class="seat-grid" data-grid role="img" aria-label="Seat map"></div>
+      <div class="seat-foot">
+        <p><b class="mono" data-bind="count">–</b> of 40 taken</p>
+        <p><b class="mono" data-bind="remaining">–</b> left</p>
+      </div>
+      <p class="seat-note" data-bind="note"></p>
+    </aside>
+  </div>
+</section>
+
+<section class="section" id="program" aria-labelledby="program-title">
+  <div class="wrap">
+    <div class="program-grid">
+      <div>
+        <h2 id="program-title">The Microsoft Learn program</h2>
+        <p class="prose" style="margin-top:1.1rem">Microsoft Learn is Microsoft's free learning platform. We turn it into a shared routine: follow structured paths together, finish hands-on modules, and get help from peers when you are stuck.</p>
+        <ul class="checks">
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Structured Microsoft Learn learning paths</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Hands-on practical modules</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Cloud computing and Azure fundamentals</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>AI and generative AI learning opportunities</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Microsoft Learn achievements and eligible certification pathways</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Practical exercises and guided learning</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Guidance for preparing for relevant Microsoft certification exams</li>
+        </ul>
+      </div>
+
+      <div class="diff">
+        <h3>Know the difference before you start</h3>
+        <div class="diff-block free">
+          <div class="diff-top"><h3>Microsoft Learn achievements</h3><span class="tag">Free</span></div>
+          <p>Finish modules and learning paths on Microsoft Learn to earn achievements on your profile. This is free, and it is the core of this program.</p>
+        </div>
+        <div class="diff-block exam">
+          <div class="diff-top"><h3>Microsoft certification exams</h3><span class="tag">Separate, may cost money</span></div>
+          <p>A certification is a formal exam you take separately. Exam requirements and fees are set by Microsoft and can change, so check the current details on Microsoft Learn before you decide to sit one. We help you prepare; sitting an exam is your decision.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="gain">
+      <h3>What you gain</h3>
+      <ul>
+        <li>Build industry-relevant technical skills.</li>
+        <li>Earn Microsoft Learn achievements and pursue recognized certifications.</li>
+        <li>Strengthen your resume and LinkedIn profile.</li>
+        <li>Develop practical knowledge through guided learning.</li>
+        <li>Build a strong technical foundation for future opportunities.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section band" id="offers" aria-labelledby="offers-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="offers-title">What this community offers</h2>
+      <p class="lead">Six tracks that run side by side, so you can learn, build and apply in the same semester.</p>
+    </div>
+    <div class="cards">
+      <article class="glass card">
+        <span class="num" aria-hidden="true">01</span>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18a4 4 0 0 1-.6-7.96A5.5 5.5 0 0 1 17 8.5a4.5 4.5 0 0 1 .5 9.5H7z"/></svg></div>
+        <h3>Microsoft Learn &amp; Certifications</h3>
+        <p>Structured learning, Microsoft technologies, Azure, AI, cloud computing, and certification preparation.</p>
+      </article>
+      <article class="glass card">
+        <span class="num" aria-hidden="true">02</span>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M3 13h18"/></svg></div>
+        <h3>Internship Preparation</h3>
+        <p>Internship opportunities, application guidance, resume building, LinkedIn optimization, and interview preparation, including Microsoft internship preparation.</p>
+      </article>
+      <article class="glass card">
+        <span class="num" aria-hidden="true">03</span>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6 3 12l5 6M16 6l5 6-5 6M14 4l-4 16"/></svg></div>
+        <h3>DSA &amp; Competitive Programming</h3>
+        <p>Regular DSA practice, coding challenges, problem-solving sessions, and interview-oriented questions.</p>
+      </article>
+      <article class="glass card">
+        <span class="num" aria-hidden="true">04</span>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="5" r="2"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="9" r="2"/><path d="M6 7v10M18 11c0 4-6 3-12 6"/></svg></div>
+        <h3>GSoC &amp; Open Source</h3>
+        <p>Learn Git and GitHub, explore open-source projects, understand contribution workflows, and prepare for Google Summer of Code.</p>
+      </article>
+      <article class="glass card">
+        <span class="num" aria-hidden="true">05</span>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 21V4h12l-2 4 2 4H5"/></svg></div>
+        <h3>Hackathons &amp; Competitions</h3>
+        <p>Discover upcoming hackathons, participate in team projects, develop innovative solutions, and build your portfolio.</p>
+      </article>
+      <article class="glass card">
+        <span class="num" aria-hidden="true">06</span>
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.4"/><path d="M16 14.2c3 .2 5 2.3 5 5.8"/></svg></div>
+        <h3>Community Learning &amp; Networking</h3>
+        <p>Peer-to-peer learning, mentorship sessions, technical discussions, collaboration, and project development.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="why" aria-labelledby="why-title">
+  <div class="wrap why-grid">
+    <div class="sticky">
+      <h2 class="caps" id="why-title">More than a group. A community that builds developers.</h2>
+    </div>
+    <ul class="why-list">
+      <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Learn together and grow together.</li>
+      <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Access structured learning roadmaps.</li>
+      <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Get guidance from fellow developers.</li>
+      <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Build real-world projects.</li>
+      <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Improve problem-solving abilities.</li>
+      <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Explore internship and career opportunities.</li>
+      <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Participate in technical competitions.</li>
+      <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Build a strong developer portfolio.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section enroll" id="enroll" aria-labelledby="enroll-title">
+  <div class="wrap enroll-grid">
+    <div>
+      <h2 class="caps" id="enroll-title">40 students. One community. Endless possibilities.</h2>
+      <p class="prose">We are keeping the initial community limited to 40 dedicated students to encourage better collaboration, focused learning, active participation, and meaningful growth.</p>
+      <a class="btn btn-primary" href="#register">Secure your spot now</a>
+    </div>
+    <div class="glass stats-card">
+      <dl class="stats">
+        <div><dt>Maximum capacity</dt><dd class="mono">40</dd></div>
+        <div><dt>Current registrations</dt><dd class="mono" data-bind="count">–</dd></div>
+        <div><dt>Remaining seats</dt><dd class="mono" data-bind="remaining">–</dd></div>
+        <div><dt>Registration status</dt><dd class="status-val" data-bind="status" data-status>Open</dd></div>
+      </dl>
+      <div class="rail" id="rail" role="progressbar" aria-label="Seats taken" aria-valuemin="0" aria-valuemax="40" aria-valuenow="0"><span></span></div>
+      <p class="seat-note" data-bind="note"></p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="roadmap" aria-labelledby="roadmap-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="roadmap-title">Learning roadmap</h2>
+      <p class="lead">Four phases, from your first Microsoft Learn sign-in to internship applications.</p>
+    </div>
+    <ol class="phases">
+      <li class="phase">
+        <small>Phase 1</small>
+        <h3>Getting Started</h3>
+        <ul><li>Community onboarding.</li><li>Microsoft Learn account setup.</li><li>Introduction to technology and career pathways.</li></ul>
+      </li>
+      <li class="phase">
+        <small>Phase 2</small>
+        <h3>Skill Development</h3>
+        <ul><li>Microsoft Learn modules.</li><li>Programming fundamentals.</li><li>DSA basics.</li><li>Git and GitHub.</li></ul>
+      </li>
+      <li class="phase">
+        <small>Phase 3</small>
+        <h3>Practical Experience</h3>
+        <ul><li>Advanced DSA practice.</li><li>Hands-on projects.</li><li>Open-source contributions.</li><li>Hackathon participation.</li></ul>
+      </li>
+      <li class="phase">
+        <small>Phase 4</small>
+        <h3>Career Preparation</h3>
+        <ul><li>Internship applications.</li><li>Resume and portfolio development.</li><li>GSoC preparation.</li><li>Technical interviews and certification preparation.</li></ul>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section band" id="register" aria-labelledby="register-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="register-title">Register for the first batch</h2>
+      <p class="lead">Seats are limited to 40 students. Fill in your details, then join the community chat.</p>
+    </div>
+    <div class="reg-grid">
+      <div class="glass form-card">
+        <form id="regForm" novalidate>
+          <div class="field">
+            <label for="f-name">Student name</label>
+            <input type="text" id="f-name" name="name" autocomplete="name" maxlength="100" aria-describedby="err-name" required>
+            <p class="err" id="err-name"></p>
+          </div>
+          <div class="field">
+            <label for="f-email">College email</label>
+            <input type="email" id="f-email" name="email" autocomplete="email" maxlength="120" placeholder="name@college.edu" aria-describedby="err-email" required>
+            <p class="err" id="err-email"></p>
+          </div>
+          <div class="field span2">
+            <label for="f-college">College name</label>
+            <input type="text" id="f-college" name="college" autocomplete="organization" maxlength="140" aria-describedby="err-college" required>
+            <p class="err" id="err-college"></p>
+          </div>
+          <div class="field">
+            <label for="f-year">Year of study</label>
+            <select id="f-year" name="year" aria-describedby="err-year" required>
+              <option value="">Select your year</option>
+              <option>First year</option><option>Second year</option><option>Third year</option><option>Fourth year</option><option>Postgraduate</option>
+            </select>
+            <p class="err" id="err-year"></p>
+          </div>
+          <div class="field">
+            <label for="f-branch">Branch / Department</label>
+            <input type="text" id="f-branch" name="branch" maxlength="100" placeholder="For example, Computer Science" aria-describedby="err-branch" required>
+            <p class="err" id="err-branch"></p>
+          </div>
+          <fieldset class="field span2" aria-describedby="err-interests">
+            <legend>Technical interests</legend>
+            <div class="pills" id="interests">
+              <label class="pill"><input type="checkbox" name="interests" value="Cloud and Azure"><span>Cloud &amp; Azure</span></label>
+              <label class="pill"><input type="checkbox" name="interests" value="AI and generative AI"><span>AI &amp; generative AI</span></label>
+              <label class="pill"><input type="checkbox" name="interests" value="Web development"><span>Web development</span></label>
+              <label class="pill"><input type="checkbox" name="interests" value="DSA and competitive programming"><span>DSA &amp; competitive programming</span></label>
+              <label class="pill"><input type="checkbox" name="interests" value="Open source and GSoC"><span>Open source &amp; GSoC</span></label>
+              <label class="pill"><input type="checkbox" name="interests" value="Hackathons"><span>Hackathons</span></label>
+              <label class="pill"><input type="checkbox" name="interests" value="Data and analytics"><span>Data &amp; analytics</span></label>
+            </div>
+            <p class="err" id="err-interests"></p>
+          </fieldset>
+          <div class="hp" aria-hidden="true"><label for="f-website">Leave this field empty</label><input type="text" id="f-website" name="website" tabindex="-1" autocomplete="off"></div>
+          <div class="span2">
+            <button class="btn btn-primary" type="submit" id="submitBtn">Register now</button>
+            <p class="hint" style="margin-top:.7rem">Only the organizers can see your details.</p>
+          </div>
+          <div class="span2" id="formStatus" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <aside class="glass join-card" aria-label="Other ways to join">
+        <div id="formAlt" style="display:grid;gap:1rem"><h3>Prefer to use the form link?</h3>
+        <p>Open the official registration form in a new tab.</p>
+        <a class="btn btn-primary" id="formLink" data-link="form" href="#register" target="_blank" rel="noopener">Open registration form</a>
+        <hr></div>
+        <h3>Join the community chat</h3>
+        <p>Get onboarding updates, learning schedules and event reminders.</p>
+        <a class="btn btn-ghost" data-link="community" href="#register" target="_blank" rel="noopener">Join WhatsApp / Telegram community</a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section closing" aria-labelledby="closing-title">
+  <div class="wrap">
+    <h2 class="caps" id="closing-title">Your degree is just the beginning. Start building your future today.</h2>
+    <a class="btn btn-primary" href="#register">Secure your spot now</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#top" aria-label="Learn Forge, back to top">
+          <svg width="30" height="30" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="9" stroke="#3B8EFF" stroke-width="2"/><path d="M13 10l-5 6 5 6M19 10l5 6-5 6" stroke="#4FE3F7" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Learn Forge</span>
+        </a>
+        <p class="foot-about">A student-led technology community for learning Microsoft technologies, preparing for internships, contributing to open source and building projects together.</p>
+      </div>
+      <div>
+        <h3>Microsoft Learn resources</h3>
+        <ul>
+          <li><a href="https://learn.microsoft.com/en-us/training/" target="_blank" rel="noopener">Microsoft Learn training</a></li>
+          <li><a href="https://learn.microsoft.com/en-us/credentials/" target="_blank" rel="noopener">Certifications and exams</a></li>
+          <li><a href="https://learn.microsoft.com/en-us/azure/" target="_blank" rel="noopener">Azure documentation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li class="contact-line"><span id="contactMail">hello@your-college.edu</span><button class="copy" type="button" id="copyMail">Copy</button></li>
+          <li>Your College Name, City</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Connect</h3>
+        <ul>
+          <li><a data-link="linkedin" href="#top" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a data-link="github" href="#top" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a data-link="community" href="#top" target="_blank" rel="noopener">Join the community</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="legal">Learn Forge is an independent, student-led community. It is not affiliated with, sponsored by, or endorsed by Microsoft or Google. Microsoft, Azure and Microsoft Learn are trademarks of the Microsoft group of companies. Google Summer of Code is a program run by Google. Seats, schedules and outcomes depend on the organizers and are not guaranteed.</p>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
